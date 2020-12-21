@@ -26,7 +26,7 @@ let callback = (payload) => {
 
 function add() {
     counter = counter + 1;
-    emit(KEY. counter)
+    emit(KEY, counter)
 }
 
 const unsub = subscribe(key, callback);
